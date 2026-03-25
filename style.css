@@ -1,0 +1,231 @@
+/* Base Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f7f9fc;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header & Photo Styling */
+header {
+    background-color: #fff;
+    padding: 40px 0;
+    border-bottom: 3px solid #3498db;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #3498db;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.header-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+    color: #555;
+    font-weight: 500;
+}
+
+.contact-info a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content & Sections */
+.main-content {
+    margin-top: 40px;
+}
+
+section {
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+section h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #3498db;
+    display: inline-block;
+    padding-bottom: 8px;
+    margin-bottom: 25px;
+}
+
+/* Skills */
+.skill-tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skill-tag {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 0.95rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Projects */
+.project-card {
+    background-color: #fcfcfc;
+    border-left: 5px solid #3498db;
+    padding: 25px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+}
+
+.project-card h3 {
+    margin-bottom: 15px;
+    color: #2980b9;
+}
+
+.project-details {
+    margin-top: 15px;
+    padding-left: 15px;
+    border-left: 2px solid #ddd;
+}
+
+.project-details ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.project-details li {
+    margin-bottom: 8px;
+}
+
+/* ========================================================= */
+/* CERTIFICATE SLIDESHOW CSS */
+/* ========================================================= */
+
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #000; /* Nice dark background for screenshots */
+}
+
+.mySlides {
+  display: none;
+}
+
+.mySlides img {
+  width: 100%;
+  max-height: 550px;
+  object-fit: contain; /* Ensures the whole screenshot is visible without stretching */
+  display: block;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.9);
+}
+
+/* Number text (1/6 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 14px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0,0,0,0.5);
+  border-bottom-right-radius: 5px;
+}
+
+/* The dots/bullets */
+.dot {
+  cursor: pointer;
+  height: 12px;
+  width: 12px;
+  margin: 0 4px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #3498db;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* ========================================================= */
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #fff;
+    background-color: #2c3e50;
+    margin-top: 50px;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Sharma - Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <!-- Change 'rohit_sharma_photo.jpg' to the exact name of your photo file -->
+        <img src="rohit_sharma_photo.jpg" alt="Rohit Sharma" class="profile-photo">
+        
+        <div class="header-content">
+            <h1>Rohit Sharma</h1>
+            <p>B.Tech Computer Science & Engineering Student (CGPA: 6.98)</p>
+            <div class="contact-info">
+                <p>Phone: +91 7042734187</p>
+                <p>Email: <a href="mailto:rohitsharma89763@gmail.com">rohitsharma89763@gmail.com</a></p>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="container main-content">
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a dynamic B.Tech CSE student passionate about technology and problem-solving. My core strengths are in data analysis using Python and frontend web development. I am a quick learner, always looking to expand my skill set and contribute to innovative projects. I am currently focusing on building robust and scalable applications while continuously refining my technical abilities.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <div class="skill-tag-container">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        
+        <div class="project-card">
+            <h3>🌍 Global Landslide Analysis Using Python & EDA</h3>
+            <p>A comprehensive Exploratory Data Analysis of global landslide occurrences. Leveraging data from the NASA Global Landslide Catalog, this analysis uncovers temporal, spatial, and statistical patterns to improve understanding and mitigation of landslide disasters.</p>
+            
+            <div class="project-details">
+                <h4>🔍 Project Objectives</h4>
+                <ul>
+                    <li><strong>Data Cleaning & Pre-processing:</strong> Handled missing values, standardized formats, and extracted features like year and location.</li>
+                    <li><strong>Landslide Frequency Analysis:</strong> Examined temporal variations and identified peak years and seasons.</li>
+                    <li><strong>Impact Analysis:</strong> Evaluated human impact by analyzing trends in fatalities and injuries.</li>
+                    <li><strong>Geospatial Analysis:</strong> Visualized landslide-prone areas on global maps using latitude/longitude data to identify hotspots.</li>
+                </ul>
+                <p><strong>Tools Used:</strong> Python, pandas, matplotlib, seaborn.</p>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3>👥 Customer Relationship Management (CRM) System</h3>
+            <p>Developed a complete CRM system to manage customer interactions, users, and supplier data efficiently, enhancing overall business processes and data management.</p>
+            <p><strong>Tools Used:</strong> HTML, CSS, JavaScript, React.</p>
+        </div>
+    </section>
+
+    <section id="certificates">
+        <h2>Certificates</h2>
+        
+        <div class="slideshow-container">
+            <!-- Slide 1 -->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 6</div>
+                <img src="Screenshot 2023-12-08 200137.png" alt="Certificate 1">
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 6</div>
+                <img src="Screenshot 2023-12-08 200801.png" alt="Certificate 2">
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 6</div>
+                <img src="Screenshot 2026-03-26 025728.png" alt="Certificate 3">
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 6</div>
+                <img src="Screenshot 2026-03-26 025800.png" alt="Certificate 4">
+            </div>
+
+            <!-- Slide 5 -->
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 6</div>
+                <img src="Screenshot 2026-03-26 025828.png" alt="Certificate 5">
+            </div>
+
+            <!-- Slide 6 -->
+            <div class="mySlides fade">
+                <div class="numbertext">6 / 6</div>
+                <img src="Screenshot 2026-03-26 025848.png" alt="Certificate 6">
+            </div>
+
+            <!-- Navigation Buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- Dots/bullets at the bottom -->
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2026 Rohit Sharma. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
